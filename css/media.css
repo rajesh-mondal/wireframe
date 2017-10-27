@@ -1,0 +1,171 @@
+/*Custom Media CSS here*/
+
+/* Extra small devices */
+@media (max-width: 767px) {
+.single-slider div img{
+    height: 180px;
+    width: 100%;
+}
+
+.my_portfolio{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    min-height: 140px;
+    margin-left: 40px;
+}
+    
+
+.Portfolio_title h1{
+    font-size: 16px;
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+.Portfolio_title p{
+    color: black;
+    font-size: 12px;
+    margin-top: 10px;
+}
+    .my_portfolio>a>img{
+        width: 140px;
+        height: 140px;
+    }
+
+    .Ent_and_org{
+    min-height: 400px;
+    margin: 20px;
+}
+
+.EntOrg_title{
+    margin-bottom: 25px;
+     color: black;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.company_p_one {
+    color: black;
+    font-size: 13px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.company_p_two {
+    color: black;
+    font-size: 13px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.company_btn{
+    margin-top: 10px;
+}
+
+.btn.btn-info {
+margin-bottom: 3px;
+}
+
+.btn.btn-default {
+}
+
+
+.enterprise_item {
+    margin: 5px;
+}
+    
+
+.test_item span {
+  font-size: 14px;
+  margin-right: 15px;
+}
+.footer_header {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+ .my_footer{
+    margin-top: 20px;
+}   
+   .footer_content p {
+    margin: 0px;
+    font-size: 13px;
+} 
+    .contact p{
+        font-size: 12px;
+    }
+    
+.social p i {
+    font-size: 15px;
+    color: black!important;
+    text-align: left;
+    margin-right: 15px;
+}
+    .footer_copyright_content {
+    margin-top: 3px;
+}
+.footer_copyright p {
+    color: #fff;
+    font-size: 11px;
+    text-align: center;
+    
+}
+  .form-group {
+    margin-bottom: 2px;
+}
+.input-group {
+    margin-bottom: 5px;
+    display: table;
+  
+}  
+    
+}
+/* Small devices */
+@media (min-width: 768px) and (max-width: 991px) { 
+    .single-slider div img{
+    height: 400px;
+    width: 100%;
+}
+    
+.EntOrg_title{
+    margin-bottom: 25px;
+     color: black;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.company_p_one {
+    color: black;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.company_p_two {
+    color: black;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.company_btn{
+    margin-top: 10px;
+}
+
+.total_portfolio{
+    min-height: 300px;
+}
+}
+
+/* Medium devices */
+@media (min-width: 992px) and (max-width: 1199px) {  
+.my_footer{
+    margin-top: 80px;
+    margin-left: 5px;
+}
+}
+
+/* Large devices */
+@media (min-width: 1200px) { 
+
+}
